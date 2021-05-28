@@ -6,7 +6,6 @@
 # it would print "hellohellohello"
 
 def tripleprint(input):
-    newstring = "{}{}{}".format(input,input,input)
-    print(newstring)
+    print("{}{}{}".format(input,input,input))
 
 

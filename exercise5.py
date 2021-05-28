@@ -15,4 +15,5 @@ numbers = [
     94, 18, 98, 72, 96, 26, 13, 7, 58, 67,
     38, 48, 43, 98, 65, 8, 74, 44, 92
 ]
-print( [x for x in numbers if x > 90])
+for i in [x for x in numbers if x > 90]:
+    print(i)
